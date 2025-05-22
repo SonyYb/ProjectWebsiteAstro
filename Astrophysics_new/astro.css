@@ -1,0 +1,247 @@
+@import url('https://fonts.googleapis.com/css2?family=Istok+Web:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+@font-face {
+    font-family: Roboto;
+    src: url(fonts/fonts/Oswald-VariableFont_wght.ttf);
+    font-display: swap;
+}
+body {
+    font-family: Istok Web, sans-serif;
+    font-size: 0.9em;
+    line-height: 1.2em;
+    letter-spacing: 0.02em;
+    margin: 0;
+    color: white;
+}
+html {
+    background-image: url(img/orig3.jpg);
+    background-size: cover;
+    opacity: 0.9;
+    background-size: 104em;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: left;
+}
+header {
+    height: 4.2em;
+    background-image: linear-gradient(rgb(0, 0, 0), rgba(0, 0, 0, 0));
+    font-family: Istok Web;
+    top: 0;
+    width: 100%;
+    z-index: 100;
+    position: fixed;
+    border: none;
+}
+.logo {
+    float: left;
+}
+
+.logo a {
+    float: right;
+    padding-top: 2.5em;
+    text-transform: capitalize;
+    text-decoration: none;
+    font-size: 1.2em;
+    color: white;
+}
+.logo img {
+    padding-top: 1em;
+}
+nav { 
+    max-width: 93em;
+    height: 4.2em;
+    margin: 0 auto;
+    overflow: visible;
+}
+.links {
+    padding-left: 4em;
+    width: 40em;
+    height: 2em;
+    margin-right: auto;
+    margin-top: 2em;
+    float: left;
+}
+.links ul li {
+    float: left;
+    padding: 0 1em;
+    text-transform: uppercase;
+    color: #878787;
+    list-style-type: none;
+    text-align: center;
+    margin-bottom: 0.1em;
+}
+.links ul li a {
+    text-decoration: none;
+}
+nav ul li a:link {
+    color: #878787;
+}
+nav ul li a:visited {
+    color: white;
+}
+nav ul li a:hover {
+    color: #1E90FF;
+}
+nav ul li a:active {
+    color: #6495ED;
+}
+#services a {
+    float: left;
+    padding: 0 1em;
+}
+#services {
+    float: right;  
+    margin-top: 2.1em;
+    text-align: center;
+}
+.text h1 {
+    margin-top: 9em;
+    margin-left: 30em;
+    font-family: Istok Web, serif;
+    text-align: left;
+    font-size: 1.4em;
+}
+.text p {
+    margin-left: 46.6em;
+}
+.pictures {
+    width: 620px;
+    height: 490px;
+    margin-top: 9em;
+    margin-left: 30em;
+    padding: 0 2em;
+}
+.pictures a {
+    text-decoration: none;
+}
+.pictures a:link {
+    color: #878787;
+}
+.pictures a:visited {
+    color: white;
+}
+.pictures a:hover {
+    color: #1E90FF;
+}
+.pictures a:active {
+    color: #6495ED;
+}
+main {
+    overflow: hidden;
+    border: none;
+}
+main h1 {
+    font-family: Istok Web, sans-serif;
+    text-align: left;
+    font-size: 1.4em;
+    text-transform: uppercase;
+    line-height: 3em;
+    text-shadow: 0 0 0.3em black;
+}
+main p {
+    font-family: Istok Web, sans-serif;
+    text-align: left;
+    font-size: 0.9em;
+    text-transform: uppercase;
+    text-shadow: 0 0 0.3em black;
+}
+.stars {
+    background-image: url(img/stars\ \(1\).jpg);
+    background-size: cover;
+    width: 300px;
+    height: 150px;
+    float: left;
+    margin: 0.2em;
+    background-repeat: no-repeat;
+    background-attachment: inherit;
+}
+.stars p{
+    text-decoration: none;
+}
+.galaxy {
+    background-image: url(img/galaxy\ \(1\).jpg);
+    background-size: cover;
+    width: 300px;
+    height: 150px;
+    float: left;
+    margin: 0.2em;
+    background-repeat: no-repeat;
+    background-attachment: inherit;
+}
+.nebula {
+    background-image: url(img/nebula.jpg);
+    background-size: cover;
+    width: 300px;
+    height: 150px;
+    float: left;
+    margin: 0.2em;
+    background-repeat: no-repeat;
+    background-attachment: inherit;
+}
+.exoplanets {
+    background-image: url(img/exoplanets\ \(1\).png);
+    background-size: cover;
+    width: 300px;
+    height: 150px;
+    float: left;
+    margin: 0.2em;
+    background-repeat: no-repeat;
+    background-attachment: inherit;
+}
+.telescope {
+    background-image: url(img/telescope.jpg);
+    background-size: cover;
+    width: 300px;
+    height: 150px;
+    float: left;
+    margin: 0.2em;
+    background-repeat: no-repeat;
+    background-attachment: inherit;
+}
+.solarsystem {
+    background-image: url(img/solarsystem\ \(1\).jpg);
+    background-size: cover;
+    width: 300px;
+    height: 150px;
+    float: left;
+    margin: 0.2em;
+    opacity: 0.9;
+    background-repeat: no-repeat;
+    background-attachment: inherit;
+}
+#trailer {
+    margin-top: 30em;
+    float: right;
+    margin-right: 25em;
+    overflow: hidden;
+}
+footer {
+    margin-top: 15em;
+}
+footer p {
+    font-family: Istok Web, sans-serif;
+    float: right;
+    padding: 0 1em;
+}
+footer p a {
+    float: left;
+    padding: 0 0.2em;
+    text-decoration: none;
+}
+footer p a:link {
+    color: #878787;
+}
+footer p a:visited {
+    color: white;
+}
+footer p a:hover {
+    color: #1E90FF;
+}
+footer p a:active {
+    color: #6495ED;
+}
+form {
+    overflow: hidden;
+    margin-top: 25em;
+    width: 350px;
+}
